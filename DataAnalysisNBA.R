@@ -78,3 +78,10 @@ ggplot(data = mean_fta_season, aes(x = yearSeason, y = mean_fta_sum))+
   geom_bar(stat = "identity", fill = "white", alpha = 1/3, color = "green")+
   geom_smooth(method = "lm", color = "red")+
   labs(x = "Season", y = "Free Throws Shot During Game")
+
+# dive deeper into three point shooting analysis by visualizing each team 
+# sep over 2 decades or so
+# make this a new script
+# next time I will go over linear modeling in R.
+# tip: try to use facet_wrap() in ggplot2
+
